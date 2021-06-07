@@ -9,6 +9,8 @@ module.exports = {
 	},
 	rules: {
 		indent: ['warn', 'tab'],
+		'vue/no-unused-components': ['warn'],
+		'vue/no-unused-vars': ['warn'],
 		'prettier/prettier': [
 			'warn',
 			{
